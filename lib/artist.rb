@@ -12,6 +12,10 @@ def self.all
   @@all
 end
 
+def add_song(newSong)
+  song << newSong
+end
+
 
 
 
