@@ -8,6 +8,9 @@ def initialize(name)
   @song = []
 end
 
+def self.all
+  @@all
+end
 
 
 
