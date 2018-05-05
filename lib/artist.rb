@@ -21,7 +21,7 @@ def self.find(name)
 end
 
 def self.create(name)
-  self.new(name)
+  self.new(name).tap {|artist| artist.save}
 
 end
 
